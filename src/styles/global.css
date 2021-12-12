@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #2a2731;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.middleground {
+  background-color: #201e27;
+  border-radius: 20px;
+  height: 90%;
+  width: 95%;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 10%;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+input {
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: invert(1);
+  font-size: 16px;
+  background-color: rgb(238, 238, 238);
+}
+
+input:focus {
+  outline-color: rgb(80, 80, 80);
+}
+
+.title-page {
+  font-family: "Shrikhand", cursive;
+  font-size: 43px;
+}
+
+.foreground {
+  background-color: #17151c;
+  border-radius: 20px;
+  height: 80%;
+  padding: 23px 120px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section__media {
+  border-radius: 20px;
+  border: solid 1px rgb(235, 228, 219);
+  height: 60%;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #2a2731;
+}
+
+.apod {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  object-fit: contain;
+  border-radius: 20px;
+  max-width: 700px;
+  max-height: 350px;
+}
+
+.image__title {
+  font-family: "Shrikhand", cursive;
+  font-size: 40px;
+  position: absolute;
+  bottom: -35px;
+  background: linear-gradient(180deg, #2a2731 30%, #17151c 52%);
+  padding: 0 50px;
+  font-weight: normal;
+}
+
+.section__info {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 90%;
+  padding: 50px 30px 20px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.informations {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  height: 20%;
+  align-items: center;
+}
+.information__group {
+  height: 100%;
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  gap: 15px;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+}
+
+.label {
+  align-items: center;
+  font-size: 18px;
+}
+
+.description {
+  font-size: 14px;
+}

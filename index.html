@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APOD - Resilia - Ana Cornachi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Sora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/global.css" />
+  </head>
+  <body>
+    <div class="middleground">
+      <header>
+        <img src="./src/assets/images/nasa-logo.svg" alt="logo da nasa" />
+        <h2 class="title-page">APOD</h2>
+        <input type="date" data-date-picker />
+      </header>
+      <main class="foreground">
+        <section class="section__media" data-section-media></section>
+        <section class="section__info">
+          <div class="informations">
+            <div class="information__group">
+              <h4 class="label">🌟 Data:</h4>
+              <p class="description" data-date></p>
+            </div>
+            <div class="information__group">
+              <h4 class="label">🌟 Copyright:</h4>
+              <p class="description" data-copyright></p>
+            </div>
+          </div>
+          <div class="descriptions">
+            <h3 class="label">🌟 Descrição:</h3>
+            <p class="description" data-description></p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
